@@ -81,7 +81,7 @@ function payAsYouEarnCalculator(taxableIncomeInput){
     }
          if (newTaxableAmount < 8333) {
             tax = 0.25 * newTaxableAmount;
-            return Math.riond(tax);
+            return Math.round(tax);
 
     }
 
